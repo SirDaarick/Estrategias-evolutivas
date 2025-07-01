@@ -1,6 +1,6 @@
 import pandas as pd
 
-def generar_resumen(csv_path="proyectofinal/resultados_beam.csv"):
+def generar_resumen(csv_path="Estrategias-evolutivas/resultados_beam.csv"):
     # Cargar los resultados existentes
     df = pd.read_csv(csv_path)
 
