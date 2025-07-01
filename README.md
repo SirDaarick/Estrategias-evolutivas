@@ -1,3 +1,14 @@
+Escuela Superior de Cómputo
+Ingeniería en Inteligencia Artificial 
+Algoritmos Bioinspirados
+Proyecto Final: Estrategias Evolutivas
+
+Elaborado por:
+- Chávez Torreblanca Angel Alexis
+- García Rodríguez Erick Daniel 
+- Rodríguez Ramirez Fernanda
+- Sosa Becerra Daniela Itzel 
+
 # Optimización de Viga Soldada con Estrategias Evolutivas
 
 Este proyecto implementa un algoritmo de **estrategias evolutivas adaptativas** para minimizar el costo de una viga soldada respetando sus restricciones estructurales mediante penalizaciones. El sistema permite probar distintas configuraciones de parámetros y realizar análisis estadístico (ANOVA) para evaluar el impacto de cada combinación.
