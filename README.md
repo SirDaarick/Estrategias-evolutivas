@@ -1,15 +1,15 @@
-# 🛠️ Optimización de Viga Soldada con Estrategias Evolutivas
+# Optimización de Viga Soldada con Estrategias Evolutivas
 
 Este proyecto implementa un algoritmo de **estrategias evolutivas adaptativas** para minimizar el costo de una viga soldada respetando sus restricciones estructurales mediante penalizaciones. El sistema permite probar distintas configuraciones de parámetros y realizar análisis estadístico (ANOVA) para evaluar el impacto de cada combinación.
 
-## 🚀 Requisitos del sistema
+## Requisitos del sistema
 
 Antes de ejecutar el proyecto, asegúrate de tener:
 
 - **Python 3.8+** (recomendado 3.9 o superior)
 - pip actualizado
 
-## 📦 Dependencias
+## Dependencias
 
 Instala las bibliotecas necesarias ejecutando:
 ```
@@ -21,7 +21,7 @@ pip install numpy pandas matplotlib statsmodels
 - `matplotlib` (visualización de resultados)
 - `statsmodels` (análisis ANOVA)
 
-## 📂 Estructura de archivos esperada
+## Estructura de archivos esperada
 ```
 proyecto/
 ├── beam_evolutivo.py           # Código con el algoritmo principal
@@ -32,9 +32,9 @@ proyecto/
 └── graficas/                   # Carpeta donde se guardan las gráficas
 ```
 
-## ⚡ Cómo usar el proyecto
+## Cómo usar el proyecto
 
-### 1️⃣ Ejecutar los experimentos
+### Ejecutar los experimentos
 
 Lanza las pruebas con las distintas configuraciones:
 ```
@@ -46,7 +46,7 @@ Esto:
 - Genera las gráficas de convergencia de la mejor ejecución.
 - Imprime el análisis ANOVA.
 
-### 2️⃣ Generar el resumen estadístico
+### Generar el resumen estadístico
 
 Una vez generados los resultados:
 ```
@@ -57,12 +57,12 @@ Esto:
 - Calcula promedio, mejor, peor y desviación estándar por configuración.
 - Guarda `resumen_estadistico.csv`.
 
-## 📊 Resultados
+## Resultados
 
 - Las gráficas de convergencia se guardan automáticamente en la carpeta `graficas/`.
 - Los archivos `.csv` generados permiten análisis posteriores o visualización en herramientas externas como Excel.
 
-## 💡 Notas
+## Notas
 
 - Puedes modificar los parámetros a probar dentro de `ejecuciones.py` (valores de mu, alpha, sigma_inicial).
 - Asegúrate de crear la carpeta `graficas/` si no existe, o modifica el código para crearla automáticamente.
