@@ -1,0 +1,18 @@
+Resultados guardados en resultados_beam.csv
+
+ANOVA Resultados:
+                             sum_sq     df          F        PR(>F)
+C(mu)                      0.847658    3.0  32.782766  1.221901e-19
+C(alpha)                   0.242693    3.0   9.386045  4.529062e-06
+C(sigma_inicial)           0.522433    3.0  20.204851  1.729686e-12
+C(mu):C(alpha)             0.077950    9.0   1.004896  4.346129e-01
+C(mu):C(sigma_inicial)     0.181875    9.0   2.344647  1.328280e-02
+C(alpha):C(sigma_inicial)  0.139877    9.0   1.803230  6.467800e-02
+Residual                   5.197219  603.0        NaN           NaN
+Gráfica de efectos principales guardada en graficas_resultados/efectos_principales.png
+Gráfica de interacción mu x alpha guardada en graficas_resultados/interaccion_mu_alpha.png
+
+🔹 Información de la mejor ejecución encontrada:
+Aptitud: 1.72658899
+Solución: [0.20565387 3.47729847 9.04301494 0.20570641]
+Configuración: mu=150, alpha=1.1, sigma_inicial=0.05, réplica=4d
